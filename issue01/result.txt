@@ -1,0 +1,20 @@
+Trying:
+    encode('SOS')
+Expecting:
+    '... --- ...'
+ok
+Trying:
+    encode('>0_0<') # doctest: +ELLIPSIS
+Expecting:
+    Traceback (most recent call last):
+    ...
+    KeyError:
+ok
+2 items had no tests:
+    test
+    test.decode
+1 items passed all tests:
+   2 tests in test.encode
+2 tests in 3 items.
+2 passed and 0 failed.
+Test passed.
