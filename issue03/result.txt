@@ -1,0 +1,15 @@
+python : test_empty_string (test.TestFitTranform) ... ok
+строка:1 знак:1
++ python -m unittest -v test.py 2> result.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_empty_stri...ranform) ... ok:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+test_not_iterable (test.TestFitTranform) ... ok
+test_with_repeated_values (test.TestFitTranform) ... ok
+test_without_repeated_values (test.TestFitTranform) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
